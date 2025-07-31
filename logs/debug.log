@@ -1,0 +1,411 @@
+2025-07-31 12:37:19 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=70
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/70
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:38:17 notice: Since 5.0.0: Calling Table::get() with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line: 147
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Controller/PackagesController.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/send-email/101
+Referer URL: http://localhost/IMS611_INKYWINKY/packages/view/101
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1541
+Cake\ORM\Table->get() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 147
+App\Controller\PackagesController->sendEmail() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:41:14 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=71
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/71
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:43:18 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=71
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/71
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:44:43 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=71
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/71
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:45:58 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=71
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/71
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:46:24 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=71
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/71
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:49:36 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=71
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/71
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:50:40 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/add?cus_id=71
+Referer URL: http://localhost/IMS611_INKYWINKY/customers/view/71
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 73
+App\Controller\PackagesController->add() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:53:01 notice: Since 5.0.0: Calling Table::get() with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line: 147
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Controller/PackagesController.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/send-email/102
+Referer URL: http://localhost/IMS611_INKYWINKY/packages/view/102
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1541
+Cake\ORM\Table->get() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 147
+App\Controller\PackagesController->sendEmail() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:53:15 notice: Since 5.0.0: Calling Table::get() with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line: 91
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Controller/PackagesController.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/edit/102
+Referer URL: http://localhost/IMS611_INKYWINKY/packages/view/102
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1541
+Cake\ORM\Table->get() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 91
+App\Controller\PackagesController->edit() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
+2025-07-31 12:53:15 notice: Since 5.0.0: Calling `findList` finder with options array is deprecated. Use named arguments instead.
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2627
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /packages/edit/102
+Referer URL: http://localhost/IMS611_INKYWINKY/packages/view/102
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Core\functions.php, line 384
+C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2698
+Cake\ORM\Table->invokeFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 2627
+Cake\ORM\Table->callFinder() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Table.php, line 1274
+Cake\ORM\Table->find() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\ORM\Association.php, line 847
+Cake\ORM\Association->find() C:\laragon\www\IMS611_INKYWINKY\src\Controller\PackagesController.php, line 121
+App\Controller\PackagesController->edit() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\Controller.php, line 505
+Cake\Controller\Controller->invokeAction() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Runner.php, line 60
+Cake\Http\Runner->run() C:\laragon\www\IMS611_INKYWINKY\vendor\cakephp\cakephp\src\Http\Server.php, line 104
+Cake\Http\Server->run() C:\laragon\www\IMS611_INKYWINKY\webroot\index.php, line 37
+[main]
+
